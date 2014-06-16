@@ -14,5 +14,9 @@ belfy = Bat.new('Belfry')
 puts belfy.move
 
 # Make Joe and poly say something
+# joe.say_it("My name is #{joe.name}")
+# poly.say_it("#{poly.name} wants a cracker")
 
 # Show that poly and belfy can fly, fly
+puts poly.fly
+puts belfy.fly

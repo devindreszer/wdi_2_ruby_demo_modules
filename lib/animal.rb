@@ -43,7 +43,7 @@ class Parrot < Animal
   include Talk, Fly
 
   def move
-    super + " using wings"
+    super + "using wings"
   end
 end
 
@@ -52,5 +52,5 @@ class Bat < Animal
   include Fly
 end
 
-binding.pry
+# binding.pry
 

@@ -14,7 +14,7 @@ class Person
 
   def initialize(first, last)
     @first, @last = first, last
-    @id = Person.increment_counter
+    @id = self.class.increment_counter
   end
 
   def full_name
